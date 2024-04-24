@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(16, 167, 16);
+    justify-content: space-around;
+    position: static;
+    color: rgb(13, 32, 12);
+    height: 120px;
+    font-size: 22px;
+    align-items: center;
+}
+nav .logo {
+    color: blue;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: rgb(207, 189, 25);
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 6px;
+
+}
+
+nav ul li a:hover {
+    color: rgb(248, 235, 116);
+    scale: 1.1;
+}
+
+.jumbotron {
+    font-size: 18px;
+    padding: 45px;
+    background-color: rgb(55, 190, 43);
+    text-align: center;
+    color: rgb(230, 230, 56);
+    font-weight: 700;
+}
+
+.gard {
+    width: 150px;
+    height: 120px;
+}
+
+aside {
+    flex: 2;
+    justify-content: space-around;
+    display: inline;
+    z-index: 999;
+}
+
+section {
+    flex: 1;
+    z-index: 999;
+}
+
+h2, h3 {
+    color: brown;
+}
+
+h3 {
+    padding-top: 30px;
+}
+
+footer {
+    background-color: rgb(66, 148, 25);
+    text-align: center;
+}
+
+.footerHolder {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.footerName {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(32, 4, 4);
+}
+
+img {
+    padding-top: 15px;
+}
+
+.profile header {
+    text-align: center;
+}
+
+.profile img {
+    width: 150px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.media {
+    width: 100px;
+   
+}
+
+.input {
+    margin: 10px;
+    
+}
+
+button {
+    padding: 5px;
+    width: 175px;
+    color: white;
+    font-weight: bold;
+    background-color: #0e5a0b;
+}
+
+.button {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        width: 50%;
+    }
+    nav li {
+        width: 80%;
+    }
+
+    img, P {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    nav li {
+        width: 80%;
+    }
+}
+
+
